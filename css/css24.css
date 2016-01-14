@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+/*************************/
+/* START UNIVERSAL RESET */
+/*************************/
+
+*{
+  border: 0;
+  /*Con box-sizing conseguimos que el padding lo meta dentro de la caja. Evita que las cajas engorden.*/
+  /*-ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;*/
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ol{
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+
+ul{
+  padding-left: 1.4em;
+  list-style: square;
+}
+
+q:before, q:after{
+  content:'';
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th, caption{
+  font-weight: normal;
+  text-align: left;
+}
+/*********************/
+/*END UNIVERSAL RESET*/
+/*********************/
+
+
+table {
+  background: #F96;
+  border: 2px #F30 dashed;
+  margin: 0 auto;
+  text-align: center;
+  width: 25%;
+}
+
+td {
+  padding: 15px;
+}
+
+
+#nombre, #apellido {
+  background: #FFFFFF;
+}

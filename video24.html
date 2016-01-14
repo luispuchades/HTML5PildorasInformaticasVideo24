@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Píldoras Informáticas: Video24 Uso de API form y sus nuevos elementos en Formularios - checkValidity - validity">
+  <title>Video24</title>
+  <link rel="stylesheet" href="css/css24.css">
+</head>
+<body>
+  <section>
+    <form id="datos-usuario" name="datos-usuario" method="get" autocomplete="off">
+      <table>
+        <tr>
+          <td>
+            Usuario:
+          </td>
+          <td>
+            <input pattern="[A-Za-z]{3}" id="usuario" name="usuario" maxlength="10" required>
+          </td>
+        </tr>
+        <tr>
+            <td>
+              e-mail:
+            </td>
+            <td>
+              <input type="email" id="email" name="email" required >
+            </td>
+        </tr>
+        <tr>
+            <td>
+              Edad:
+            </td>
+            <td>
+              <input type="range" id="edad" name="edad" min="0" max="120" value="30" step="30" >
+            </td>
+        </tr>
+        <tr>
+          <td>
+            <output id="rango">0 a 30</output>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" id="enviar" value="Enviar" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </section>
+
+  <script src="js/funciones24.js"></script>
+</body>
+</html>
