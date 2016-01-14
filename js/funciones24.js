@@ -3,6 +3,7 @@
 
 // JavaScript Document
 // Origin: video24.html
+// Curso: HTML5 Pildoras Informáticas Video24
 
 // "use strict";
 
